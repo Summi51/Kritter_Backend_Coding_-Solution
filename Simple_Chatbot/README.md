@@ -4,16 +4,16 @@ This project implements a simple chatbot that responds to user queries based on 
 ## Table of Contents
 - Problem Statement
 - Input
--Output
--Example
--Project Structure
--Setup Instructions
--Prerequisites
--Installation
--How to Run the Code
--Testing Instructions
--Code Explanation
- -Methods Breakdown
+- Output
+- Example
+- Project Structure
+- Setup Instructions
+- Prerequisites
+- Installation
+- How to Run the Code
+- Testing Instructions
+- Code Explanation
+ - Methods Breakdown
  
 ## Problem Statement
 The goal of this program is to create a chatbot that can handle user queries by finding the closest matching question from a list of predefined questions. It compares the user input with the predefined questions using word matching to find the best match and returns the corresponding answer.
@@ -25,15 +25,15 @@ The goal of this program is to create a chatbot that can handle user queries by 
 4. If no match is found, return a default response.
    
 ## Input
--A list of predefined question-answer pairs.
--A user’s input question (string).
+- A list of predefined question-answer pairs.
+- A user’s input question (string).
 
 ## Output
 Returns the answer corresponding to the closest matching predefined question or a default response if no match is found.
 
 ## Example
 **Question-answer pairs:**
--Question	            -Answer
+- Question	            - Answer
 What is your name?	  My name is Chatbot.
 How can I help you?	  I can assist you with your queries.
 What is the weather today?	The weather is sunny.
@@ -60,8 +60,8 @@ What is the weather today?	The weather is sunny.
 
 Ensure you have the following installed:
 
--Node.js (v12 or higher)
--npm (comes with Node.js)
+- Node.js (v12 or higher)
+- npm (comes with Node.js)
 
 ## Installation
 1. Clone the repository:
