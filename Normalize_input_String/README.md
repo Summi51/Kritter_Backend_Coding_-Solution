@@ -1,4 +1,4 @@
-#Normalize Input String
+# Normalize Input String
 
 This project implements a string normalization tool that processes a given string by removing extra spaces, special characters, and converting the string to camel case format.
 
