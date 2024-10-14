@@ -37,5 +37,5 @@ export default class StringNormalizer {
 
 const inputString = " Hello! World@ This is a Test!. ";
 const normalizer = new StringNormalizer(inputString);
-const normalizedString = normalizer.normalize();
-console.log(normalizedString); // Output: "Hello World This Is A Test"
+const normalizedInputString = normalizer.normalize();
+console.log(normalizedInputString);  // Output: "Hello World This Is A Test"
