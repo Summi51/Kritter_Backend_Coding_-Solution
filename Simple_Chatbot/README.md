@@ -2,8 +2,8 @@
 This project implements a simple chatbot that responds to user queries based on predefined question-answer pairs. The chatbot tries to find the closest matching question from the predefined list and returns the corresponding answer.
 
 ## Table of Contents
--Problem Statement
--Input
+- Problem Statement
+- Input
 -Output
 -Example
 -Project Structure
