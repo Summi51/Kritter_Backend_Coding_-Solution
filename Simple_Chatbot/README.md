@@ -33,10 +33,13 @@ Returns the answer corresponding to the closest matching predefined question or 
 
 ## Example
 **Question-answer pairs:**
-- Question	            - Answer
-What is your name?	  My name is Chatbot.
-How can I help you?	  I can assist you with your queries.
-What is the weather today?	The weather is sunny.
+- Question/Answer
+ 1. What is your name?
+My name is Chatbot.
+2. How can I help you?
+I can assist you with your queries.
+3. What is the weather today?
+The weather is sunny.
 
 ## Input:
 
