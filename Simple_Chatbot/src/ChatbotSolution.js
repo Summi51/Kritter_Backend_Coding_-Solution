@@ -84,7 +84,6 @@ const userInput3 = "";
 const response3 = chatbot.getResponse(userInput3);
 console.log(response3);  // Output:"I'm sorry, I don't understand the question."
 
-
 export default Chatbot;
 
 
