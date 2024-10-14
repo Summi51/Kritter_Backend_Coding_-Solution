@@ -2,7 +2,7 @@
 
 This project implements a string normalization tool that processes a given string by removing extra spaces, special characters, and converting the string to camel case format.
 
-##Table of Contents
+## Table of Contents
 - Problem Statement
 - Input
 - Output
@@ -16,7 +16,7 @@ This project implements a string normalization tool that processes a given strin
 - Code Explanation
  - Methods Breakdown
 
-##Problem Statement
+## Problem Statement
 The goal of this program is to normalize a given input string through the following steps:
 
 1. Trim extra spaces: Remove any extra spaces from the beginning and end of the string.
@@ -25,13 +25,13 @@ The goal of this program is to normalize a given input string through the follow
 4. Camel case conversion: Convert the cleaned string to camel case, where the first letter of each word is capitalized, and all other
    letters are in lowercase.
    
-##Input
+## Input
 A single string may contain uppercase letters, extra spaces, and special characters.
 
-##Output
+## Output
 A single normalized string in a camel case format.
 
-##Example
+## Example
 
 -Input:
 "  Hello! World@ This is a Test!.  "
@@ -39,7 +39,7 @@ A single normalized string in a camel case format.
 -Output:
 "Hello World This Is A Test"
 
-##Project Structure
+## Project Structure
 
 ├── src/
 │   └── StringNormalizer.mjs        # Main file containing the string normalization logic
@@ -48,14 +48,14 @@ A single normalized string in a camel case format.
 ├── README.md                       # Project documentation (this file)
 └── package.json                    # Project metadata and dependencies
 
-##Setup Instructions
-##Prerequisites
+## Setup Instructions
+## Prerequisites
 Ensure you have the following installed:
 
 -Node.js (v12 or higher)
 -npm (comes with Node.js)
 
-##Installation
+## Installation
 1. Clone the repository:
 
 git clone https://github.com/Summi51/Kritter_Backend_Coding_Solution.git
@@ -73,7 +73,7 @@ To execute the normalization logic, use the following command:
 
 node src/StringNormalizer.mjs
 
-##Testing Instructions
+## Testing Instructions
 Unit tests for the string normalization functionality are written using Mocha and Chai. To run the tests:
 
 1. Run the tests with:
@@ -81,10 +81,10 @@ Unit tests for the string normalization functionality are written using Mocha an
 npm test
 This will run the test cases defined in the test/ folder, ensuring each function works as expected.
 
-##Code Explanation
+## Code Explanation
 The core logic is encapsulated in the StringNormalizer class, with the following key methods:
 
-##Methods Breakdown
+## Methods Breakdown
 1. trimSpaces():
 -Removes any extra spaces from the beginning and end of the string.
 -Time Complexity: O(n), where n is the length of the string.
